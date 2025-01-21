@@ -37,3 +37,7 @@ ENV/
 *.log
 high_scores.json
 settings.json
+
+# Build directories
+web-build/
+dist/
