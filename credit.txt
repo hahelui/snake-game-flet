@@ -1,0 +1,8 @@
+eating sound:
+eat.wav by Koops -- https://freesound.org/s/20280/ -- License: Attribution 4.0
+music:
+In The Middle Of July Music Loop by rhodesmas -- https://freesound.org/s/323545/ -- License: Attribution 3.0
+music2:
+8-bit Short Music Loop 1.wav by EVRetro -- https://freesound.org/s/581806/ -- License: Creative Commons 0
+pause:
+pause.mp3 by crisstanza -- https://freesound.org/s/167127/ -- License: Creative Commons 0
