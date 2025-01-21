@@ -198,7 +198,6 @@ class SnakeGame:
                 spacing=20,
             ),
             visible=False,
-            padding=20,
         )
         
         # Set page as focused control
@@ -250,22 +249,22 @@ class SnakeGame:
                         ft.Container(
                             content=self.title,
                             alignment=ft.alignment.center,
-                            padding=ft.padding.only(top=20, bottom=10),
+                            padding=ft.padding.only(top=20, bottom=5),
                         ),
                         ft.Container(
                             content=self.score_text,
                             alignment=ft.alignment.center,
-                            padding=ft.padding.only(bottom=10),
+                            padding=ft.padding.only(bottom=5),
                         ),
                         ft.Container(
                             content=high_score_row,
                             alignment=ft.alignment.center,
-                            padding=ft.padding.only(bottom=10),
+                            padding=ft.padding.only(bottom=5),
                         ),
                         ft.Container(
                             content=controls_text,
                             alignment=ft.alignment.center,
-                            padding=ft.padding.only(bottom=20),
+                            padding=ft.padding.only(bottom=5),
                         ),
                         ft.Container(
                             content=ft.Stack(
@@ -293,7 +292,7 @@ class SnakeGame:
                                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                             ),
                             alignment=ft.alignment.center,
-                            padding=ft.padding.only(top=20, bottom=10),
+                            padding=ft.padding.only(top=10, bottom=5),
                         ),
                         self.speed_container,
                     ],
@@ -711,4 +710,4 @@ async def main(page: ft.Page):
     await game.game_loop()
 
 if __name__ == "__main__":
-    ft.app(target=main)
+    ft.app(target=main , assets_dir="assets")
