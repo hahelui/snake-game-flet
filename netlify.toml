@@ -1,5 +1,10 @@
 [build]
-command = "pip install flet && flet publish main.py --app-name 'Snake Game' --app-description 'A classic Snake game built with Python and Flet' --distpath ./dist"
+command = """
+pip install flet &&
+mkdir -p dist/assets &&
+cp -r assets/* dist/assets/ &&
+flet publish main.py --app-name 'Snake Game' --app-description 'A classic Snake game built with Python and Flet' --distpath ./dist
+"""
 publish = "dist"
 
 [build.environment]
